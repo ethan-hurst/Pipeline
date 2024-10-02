@@ -24,10 +24,10 @@ on:
         required: false
       commit_message:
         description: "message to provide for the commit"
-        required: true
+        required: false
       allow_empty_commit:
         description: "allow an empty commit"
-        required: true
+        required: false
         default: 'false'
 permissions:
   contents: write
