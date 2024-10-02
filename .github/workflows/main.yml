@@ -27,7 +27,7 @@ on:
         required: false
       allow_empty_commit:
         description: "allow an empty commit"
-        required: false
+        required: true
         default: 'false'
 permissions:
   contents: write
