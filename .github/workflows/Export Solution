@@ -10,17 +10,17 @@ jobs:
     - name: Export Solution
       uses: microsoft/powerplatform-actions/export-solution@v1
       with:
-        environment-url: 'https://myenv.crm.dynamics.com'
-        user-name: 'me@myenv.onmicrosoft.com'
+        environment-url: 'https://org3c3ac2b9.crm6.dynamics.com/'
+        user-name: 'ethanhurst@apjd365online.onmicrosoft.com'
         password-secret: ${{ secrets.MYPASSWORD }}
-        solution-name: aSolution
-        solution-output-file: 'aSolution.zip'
+        solution-name: GithubActionsPipeline
+        solution-output-file: 'GithubActionsPipeline.zip'
         working-directory: 'out'
 
     - name: Unpack Solution
       uses: microsoft/powerplatform-actions/unpack-solution@v1
       with:
-        solution-file: 'out/aSolution1.zip'
+        solution-file: 'out/GithubActionsPipeline.zip'
         solution-folder: 'out/solutions/solution one'
         solution-type: 'Unmanaged'
         overwrite-files: true
@@ -35,6 +35,6 @@ jobs:
     - name: Prepare solution changes for check-in into source control
       uses: microsoft/powerplatform-actions/branch-solution@v1
       with:
-        solution-folder: 'out/solutions/solution one'
-        solution-target-folder: 'src/solutions/solution1'
+        solution-folder: 'out/solutions/GithubActionsPipeline'
+        solution-target-folder: 'src/solutions/GithubActionsPipeline'
         token: ${{ secrets.GITHUB_TOKEN }}
