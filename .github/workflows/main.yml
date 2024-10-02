@@ -6,15 +6,15 @@ on:
       solution_name:
         description: "name of the Solution in Dataverse environment"
         required: true
-        default: yoursolutionname
+        default: GithubActionsPipeline
       # environment_id:
       #   description: "GUID of your Dataverse environment"
       #   required: true
-      #   default: "GUID-OF-YOUR-ENVIRONMENT"
+      #   default: "ed36c56c-2ec4-e29e-8966-1fef6db00ec7"
       environment_url:
         description: "http endpoint of your Dataverse environment"
         required: true
-        default: "https://[your-env].crm.dynamics.com"
+        default: "https://org3c3ac2b9.crm6.dynamics.com/"
       source_branch:
         description: "source branch"
         required: true
