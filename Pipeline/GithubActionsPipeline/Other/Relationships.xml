@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_crc2c_timeoffrequest" />
+  <EntityRelationship Name="lk_crc2c_timeoffrequest_createdby" />
+  <EntityRelationship Name="lk_crc2c_timeoffrequest_modifiedby" />
+  <EntityRelationship Name="owner_crc2c_timeoffrequest" />
+  <EntityRelationship Name="team_crc2c_timeoffrequest" />
+  <EntityRelationship Name="user_crc2c_timeoffrequest" />
+</EntityRelationships>

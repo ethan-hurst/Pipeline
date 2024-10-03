@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{0e3e964c-82f3-ed11-8849-00224893b3f3}</WebResourceId>
+  <Name>crc2c_timeoffrequest.js</Name>
+  <DisplayName>TimeOffRequest.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/crc2c_timeoffrequestjs0E3E964C-82F3-ED11-8849-00224893B3F3</FileName>
+</WebResource>
