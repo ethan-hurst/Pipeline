@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: dawidd6/action-download-artifact@v2
         with:
-          workflow: pack-solution.yml
+          workflow: pack-solution
           name: packed-solution
       - uses: microsoft/powerplatform-actions/import-solution@v0
         with:
