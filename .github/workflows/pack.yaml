@@ -15,7 +15,7 @@ jobs:
         with:
           solution-file: out/GithubActionsPipeline‎.zip
           solution-folder: Pipeline/GithubActionsPipeline/
-          solution-type: both
+          solution-type: unmanaged
       - uses: actions/upload-artifact@v4
         with:
           name: packed-solution
