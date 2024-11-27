@@ -10,13 +10,13 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: microsoft/powerplatform-actions/pack-solution@v0
         with:
           solution-file: out/GithubActionsPipeline‎.zip
           solution-folder: contents
           solution-type: Both
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: packed-solution
           path: out/
